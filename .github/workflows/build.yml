@@ -13,9 +13,9 @@ jobs:
           distribution: 'temurin'
           java-version: '17'
       - run: npm install
-      - run: npx expo prebuild --platform android --no-install
+      - run: npx expo prebuild --platform android
       - run: cd android && chmod +x gradlew &&./gradlew assembleRelease
       - uses: actions/upload-artifact@v4
         with:
           name: MR-MOUNTAIN-APK
-          path: android/app/build/outputs/apk/release/app-release.apk
+          path: android/app/build/outputs/apk/release/*.apk
