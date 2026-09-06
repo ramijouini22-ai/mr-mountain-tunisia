@@ -1,1 +1,17 @@
-{"expo":{"name":"MR MOUNTAIN TUNISIA","slug":"mr-mountain-tunisia","version":"1.0.0","orientation":"portrait","android":{"package":"com.mrmountain.tunisia"},"platforms":["android","ios"]}}
+{
+  "expo": {
+    "name": "MR MOUNTAIN TUNISIA",
+    "slug": "mr-mountain-tunisia",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "backgroundColor": "#ffffff",
+      "resizeMode": "contain"
+    },
+    "android": {
+      "package": "com.mrmountain.tunisia"
+    },
+    "platforms": ["android"]
+  }
+}
